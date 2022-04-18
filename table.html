@@ -12,20 +12,24 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<table class="table">
+<header class="table-main">
+<div class = "table-responsive">
+<table class="table table-bordered">
     <thead>
-      <tr>
-        <th scope="col">ID</th>
-        <th scope="col">Фамилия</th>
-        <th scope="col">Имя</th>
-        <th scope="col">Отчество</th>
-        <th scope="col">Группа</th>
-        <th scope="col">Название команды</th>
+      <nav class="nav">
+        <p class="tabel-text">Результаты тестирования</p>
+      </nav>
+      <tr class="col-tabel">
+        <th scope="col"><p class="coltext">ID</p></th>
+        <th scope="col"><p class="coltext">Фамилия</p></th>
+        <th scope="col"><p class="coltext">Имя</p></th>
+        <th scope="col"><p class="coltext">Отчество</p></th>
+        <th scope="col"><p class="coltext">Группа</p></th>
+        <th scope="col"><p class="coltext">Название команды</p></th>
       </tr>
     </thead>
       <tbody>
-          <h1>Результаты тестирования</h1>
-        <tr>
+        <tr class="col-tabel">
           <th scope="row">1</th>
           <td><href>#</href></td>
           <td><href>#</href></td>
@@ -33,7 +37,7 @@
           <td><href>#</href></td>
           <td><href>#</href></td>
         </tr>
-        <tr>
+        <tr class="col-tabel">
           <th scope="row">2</th>
           <td><href>#</href></td>
           <td><href>#</href></td>
@@ -41,7 +45,7 @@
           <td><href>#</href></td>
           <td><href>#</href></td>
         </tr>
-        <tr>
+        <tr class="col-tabel">
           <th scope="row">3</th>
           <td><href>#</href></td>
           <td><href>#</href></td>
@@ -49,7 +53,7 @@
           <td><href>#</href></td>
           <td><href>#</href></td>
         </tr>
-        <tr>
+        <tr class="col-tabel">
             <th scope="row">4</th>
             <td><href>#</href></td>
             <td><href>#</href></td>
@@ -57,7 +61,7 @@
             <td><href>#</href></td>
             <td><href>#</href></td>
           </tr>
-          <tr>
+          <tr class="col-tabel">
             <th scope="row">5</th>
             <td><href>#</href></td>
             <td><href>#</href></td>
@@ -67,9 +71,12 @@
           </tr>
       </tbody>
 </table>
-<button type="button" class="btn btn-one" href = "#">
-    <p1><a class="entrance" type="submit">Назад</a></p1>
-</button>
-<button type="button" class="btn btn-two">Далее</button>
+</div>
+</header>
+<div class="buttons">
+<button class="one">Назад</button>
+<button class="two">Далее</button>
+</div>
 </body>
 </html>
+
