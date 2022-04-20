@@ -15,15 +15,18 @@
     border-width: 3px;*/
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+/*положение таблицы на странице*/
 .table-main{
-    width: 70%;
-    margin-left: 15%;
+    width: 50%;
+    margin-left: 30%;
     margin-top: 2%;
+    
 }
 .table-responsive{
     border: 3px solid #7250F2 ;
     border-width: 3px;
     border-radius: 50px;
+    
 }
 h1 {
     width: 986px;
@@ -88,9 +91,9 @@ border-radius: 7px;
     border-radius: 27px;
     font-family: 'Poppins', sans-serif;
 }
-.tabel-text{
-    margin-left: 45%;
-    font-family: 'Poppins';
+/*.text-center{
+
+font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
 font-size: 29px;
@@ -98,7 +101,7 @@ line-height: 44px;
 color: #FFFFFF;
 margin-top: 0.7%;
 font-family: 'Poppins', sans-serif;
-}
+}*/
 .buttons{
     width: 100%;
     height: 70px;
@@ -107,7 +110,7 @@ font-family: 'Poppins', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
 .two{
-    margin-left: 56%;
+    margin-left: 35%;
     background: #7350F2;
     border-radius: 7px;
     width: 7%;
@@ -123,7 +126,7 @@ font-family: 'Poppins', sans-serif;
     background: #7350F2;
     border-radius: 7px;
     width: 7%;
-    margin-left: 15%;
+    margin-left: 30.5%;
     color: #FFFFFF;
 font-style: normal;
 font-weight: 500;
@@ -136,18 +139,18 @@ font-family: 'Poppins', sans-serif;
     font-size: 26px;
 line-height: 39px;
 }
-.nav{
+/*.nav{
     background: #7250F2;
 box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
 height: 70px;
-}
+}*/
 .col-tabel{
     width: 20%;
     color: #7250F2;
 }
 .table-bordered{
     color: #7250F2;
-    background-color: #7250F2 ;
+    /*background-color: #7250F2 ;*/
 }
 td tr {
     color: #7250F2;
